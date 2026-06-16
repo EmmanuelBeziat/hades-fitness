@@ -9,6 +9,8 @@
 </template>
 
 <script setup lang="ts">
+import { watch } from 'vue'
+import { useI18n } from 'vue-i18n'
 import { useSettingsStore } from './stores/settings'
 import { useExercisesStore } from './stores/exercises'
 import { useRewardsStore } from './stores/rewards'
@@ -19,6 +21,17 @@ const settingsStore = useSettingsStore()
 const exercisesStore = useExercisesStore()
 const rewardsStore = useRewardsStore()
 const sessionStore = useSessionStore()
+
+// Sync i18n locale with settings store
+const { locale: i18nLocale } = useI18n()
+i18nLocale.value = settingsStore.locale
+
+watch(
+	() => settingsStore.locale,
+	(newLocale) => {
+		i18nLocale.value = newLocale
+	}
+)
 </script>
 
 <style scoped>
