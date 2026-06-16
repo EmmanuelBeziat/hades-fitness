@@ -5,8 +5,10 @@ import App from './App.vue'
 import router from './router'
 
 const app = createApp(App)
+const pinia = createPinia()
 
-app.use(createPinia())
+app.use(pinia)
 app.use(router)
+app.mount('#hadesFitness')
 
-app.mount('#app')
+console.log('%c Made with 🕑 and 💖 by Emmanuel Béziat.', 'background: #8ca7cc; color: #0b191f; padding: .5em 1em;')

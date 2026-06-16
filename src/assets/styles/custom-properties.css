@@ -1,0 +1,41 @@
+:root {
+	/* colors */
+	--color-black: #0b191f;
+	--color-white: #f5f5f5;
+	--color-gray: #8ca7cc;
+	--color-back: var(--color-black);
+	--color-front: var(--color-white);
+	--color-accent: var(--color-gray);
+
+	/* fonts stacks */
+	--font-stack-common: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	--font-stack-heading: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+	/* font sizes */
+	--font-size-small: 0.8rem;
+	--font-size-medium: 1rem;
+	--font-size-large: 1.2rem;
+
+	/* transitions */
+	--timing-xfast: .2s;
+	--timing-fast: .25s;
+	--timing-medium: .3s;
+	--timing-slow: .5s;
+	--timing-xslow: .75s;
+
+	@media (prefers-reduced-motion: reduce) {
+		--timing-xfast: 0;
+		--timing-fast: 0;
+		--timing-medium: 0;
+		--timing-slow: 0;
+		--timing-xslow: 0;
+	}
+
+	/* Scrollbars */
+	--scrollbar-color: var(--color-green);
+	--scrollbar-width: thin;
+
+	@media (prefers-reduced-motion: reduce) {
+		--scrollbar-width: auto;
+	}
+}
