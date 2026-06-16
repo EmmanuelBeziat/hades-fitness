@@ -1,0 +1,92 @@
+[
+	{
+		"id": "pushup_military",
+		"i18nKey": "exercises.pushup_military",
+		"unit": "reps"
+	},
+	{
+		"id": "pushup_diamond",
+		"i18nKey": "exercises.pushup_diamond",
+		"unit": "reps"
+	},
+	{
+		"id": "pushup_wide",
+		"i18nKey": "exercises.pushup_wide",
+		"unit": "reps"
+	},
+	{
+		"id": "squat",
+		"i18nKey": "exercises.squat",
+		"unit": "reps"
+	},
+	{
+		"id": "pushup_archer",
+		"i18nKey": "exercises.pushup_archer",
+		"unit": "reps"
+	},
+	{
+		"id": "crunch",
+		"i18nKey": "exercises.crunch",
+		"unit": "reps"
+	},
+	{
+		"id": "plank",
+		"i18nKey": "exercises.plank",
+		"unit": "seconds"
+	},
+	{
+		"id": "lunge",
+		"i18nKey": "exercises.lunge",
+		"unit": "reps"
+	},
+	{
+		"id": "balance",
+		"i18nKey": "exercises.balance",
+		"unit": "seconds"
+	},
+	{
+		"id": "pushup_pike",
+		"i18nKey": "exercises.pushup_pike",
+		"unit": "reps"
+	},
+	{
+		"id": "pushup_balance",
+		"i18nKey": "exercises.pushup_balance",
+		"unit": "reps"
+	},
+	{
+		"id": "shoulder_fly",
+		"i18nKey": "exercises.shoulder_fly",
+		"unit": "reps"
+	},
+	{
+		"id": "splits",
+		"i18nKey": "exercises.splits",
+		"unit": "seconds"
+	},
+	{
+		"id": "y_press",
+		"i18nKey": "exercises.y_press",
+		"unit": "reps"
+	},
+	{
+		"id": "bicep_curl",
+		"i18nKey": "exercises.bicep_curl",
+		"unit": "reps"
+	},
+	{
+		"id": "shoulder_shrug",
+		"i18nKey": "exercises.shoulder_shrug",
+		"unit": "reps"
+	},
+	{
+		"id": "triceps_extension",
+		"i18nKey": "exercises.triceps_extension",
+		"unit": "reps"
+	},
+	{
+		"id": "rotator_cuff",
+		"i18nKey": "exercises.rotator_cuff",
+		"unit": "reps"
+	}
+]
