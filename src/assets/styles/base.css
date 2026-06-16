@@ -1,0 +1,75 @@
+::selection {
+	background: var(--color-grey);
+	color: var(--color-front);
+	text-shadow: 0 1px 0 rgb(0 0 0 / .5);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	:root {
+		scroll-behavior: smooth;
+	}
+
+	:focus {
+		transition: outline-offset var(--timing-fast) ease;
+		outline-offset: 5px;
+	}
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+	scrollbar-color: var(--scrollbar-color) transparent;
+	scrollbar-width: var(--scrollbar-width);
+	scrollbar-gutter: stable;
+	interpolate-size: allow-keywords;
+	transition: scrollbar-color var(--timing-xfast) ease;
+}
+
+body {
+	margin: 0;
+	background: var(--color-back);
+	color: var(--color-front);
+	font: 400 var(--font-size-base)/1.5 var(--font-stack-common);
+}
+
+a {
+	background-color: transparent;
+	color: var(--color-accent);
+	text-decoration: none;
+	transition: color var(--timing-xfast) ease-in-out;
+}
+
+a:is(:hover, :focus) {
+	color: var(--color-accent);
+	outline: none;
+}
+
+a:not([href], [class]),
+a:not([href], [class]):hover {
+	color: inherit;
+}
+
+i[lang] {
+	font-style: normal;
+}
+
+img,
+svg {
+	max-inline-size: 100%;
+	vertical-align: middle;
+	height: auto;
+}
+
+img {
+	font-style: italic;
+	shape-margin: 1rem;
+}
+
+:where(button, [type="button"], [type="reset"], [type="submit"]):not(:disabled) {
+	cursor: pointer;
+}

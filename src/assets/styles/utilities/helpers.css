@@ -1,0 +1,9 @@
+.noscript {
+	max-inline-size: 480px;
+	margin: 2rem auto;
+}
+
+.emoji {
+	font-family: system-ui !important;
+	font-style: inherit;
+}

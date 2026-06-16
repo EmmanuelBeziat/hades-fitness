@@ -12,6 +12,7 @@
 	--font-stack-heading: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 
 	/* font sizes */
+	--font-size-base: 16px;
 	--font-size-small: 0.8rem;
 	--font-size-medium: 1rem;
 	--font-size-large: 1.2rem;
@@ -32,7 +33,7 @@
 	}
 
 	/* Scrollbars */
-	--scrollbar-color: var(--color-green);
+	--scrollbar-color: var(--color-accent);
 	--scrollbar-width: thin;
 
 	@media (prefers-reduced-motion: reduce) {
