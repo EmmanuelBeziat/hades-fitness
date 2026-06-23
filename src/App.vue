@@ -28,6 +28,7 @@ const rewardsStore = useRewardsStore()
 const sessionStore = useSessionStore()
 
 // Sync i18n locale with settings store
+settingsStore.init()
 const { locale: i18nLocale } = useI18n()
 i18nLocale.value = settingsStore.locale
 

@@ -1,16 +1,14 @@
 import { defineStore } from 'pinia'
-import { ref } from 'vue'
 import { allExercises, type Exercise } from '../api/exercises'
 
-export const useExercisesStore = defineStore('exercises', () => {
-	const exercises = ref<Exercise[]>(allExercises)
+export const useExercisesStore = defineStore('exercises', {
+	state: () => ({
+		exercises: allExercises as Exercise[],
+	}),
 
-	const getExerciseById = (id: string) => {
-		return exercises.value.find((e) => e.id === id)
-	}
-
-	return {
-		exercises,
-		getExerciseById,
-	}
+	actions: {
+		getExerciseById(id: string) {
+			return this.exercises.find((e) => e.id === id)
+		},
+	},
 })

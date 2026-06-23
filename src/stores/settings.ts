@@ -1,75 +1,66 @@
 import { defineStore } from 'pinia'
-import { ref, watch } from 'vue'
+import { watch } from 'vue'
 import { defaultMappings, type Mapping } from '../api/mappings'
 
 const STORAGE_KEY = 'hades-fitness-settings'
 
-export const useSettingsStore = defineStore('settings', () => {
-	const game = ref<'hades' | 'hades2'>('hades')
-	const locale = ref<'en' | 'fr'>('en')
-	const mappings = ref<Map<string, Mapping>>(new Map())
+const getBrowserLocale = (): 'en' | 'fr' => {
+	const browserLang = navigator.language.toLowerCase()
+	return browserLang.startsWith('fr') ? 'fr' : 'en'
+}
 
-	// Initialize mappings and locale from localStorage or defaults
-	const init = () => {
-		const stored = localStorage.getItem(STORAGE_KEY)
-		if (stored) {
-			try {
-				const parsed = JSON.parse(stored)
-				game.value = parsed.game || 'hades'
-				locale.value = parsed.locale || getBrowserLocale()
-				mappings.value = new Map(Object.entries(parsed.mappings || {}))
-			} catch {
-				resetToDefaults()
+export const useSettingsStore = defineStore('settings', {
+	state: () => ({
+		game: 'hades' as 'hades' | 'hades2',
+		locale: 'en' as 'en' | 'fr',
+		mappings: new Map<string, Mapping>(),
+	}),
+
+	actions: {
+		save() {
+			const data = {
+				game: this.game,
+				locale: this.locale,
+				mappings: Object.fromEntries(this.mappings),
 			}
-		} else {
-			resetToDefaults()
-		}
-	}
+			localStorage.setItem(STORAGE_KEY, JSON.stringify(data))
+		},
+		resetToDefaults() {
+			this.game = 'hades'
+			this.locale = getBrowserLocale()
+			this.mappings = new Map(defaultMappings.map((m) => [m.rewardId, m]))
+			this.save()
+		},
+		updateMapping(rewardId: string, exerciseId: string, quantity: number) {
+			this.mappings.set(rewardId, { rewardId, exerciseId, quantity })
+			this.save()
+		},
+		setLocale(newLocale: 'en' | 'fr') {
+			this.locale = newLocale
+			this.save()
+		},
+		init() {
+			const stored = localStorage.getItem(STORAGE_KEY)
+			if (stored) {
+				try {
+					const parsed = JSON.parse(stored)
+					this.game = parsed.game || 'hades'
+					this.locale = parsed.locale || getBrowserLocale()
+					this.mappings = new Map(
+						Object.entries(parsed.mappings || {})
+					) as Map<string, Mapping>
+				} catch {
+					this.resetToDefaults()
+				}
+			} else {
+				this.resetToDefaults()
+			}
 
-	const getBrowserLocale = (): 'en' | 'fr' => {
-		const browserLang = navigator.language.toLowerCase()
-		return browserLang.startsWith('fr') ? 'fr' : 'en'
-	}
-
-	const resetToDefaults = () => {
-		game.value = 'hades'
-		locale.value = getBrowserLocale()
-		mappings.value = new Map(defaultMappings.map((m) => [m.rewardId, m]))
-		save()
-	}
-
-	const updateMapping = (rewardId: string, exerciseId: string, quantity: number) => {
-		mappings.value.set(rewardId, { rewardId, exerciseId, quantity })
-		save()
-	}
-
-	const setLocale = (newLocale: 'en' | 'fr') => {
-		locale.value = newLocale
-		save()
-	}
-
-	const save = () => {
-		const data = {
-			game: game.value,
-			locale: locale.value,
-			mappings: Object.fromEntries(mappings.value),
-		}
-		localStorage.setItem(STORAGE_KEY, JSON.stringify(data))
-	}
-
-	// Auto-save on changes
-	watch([game, locale, mappings], () => {
-		save()
-	}, { deep: true })
-
-	init()
-
-	return {
-		game,
-		locale,
-		mappings,
-		resetToDefaults,
-		updateMapping,
-		setLocale,
-	}
+			watch(
+				() => [this.game, this.locale, this.mappings] as const,
+				() => this.save(),
+				{ deep: true }
+			)
+		},
+	},
 })
