@@ -21,7 +21,7 @@
 	{ "id": "coins", "i18nKey": "rewards.coins", "category": "currency" },
 	{ "id": "stones", "i18nKey": "rewards.stones", "category": "currency" },
 	{ "id": "souls", "i18nKey": "rewards.souls", "category": "currency" },
-	{ "id": "fruit", "i18nKey": "rewards.fruit", "category": "item" },
+	{ "id": "pom_of_power", "i18nKey": "rewards.pom_of_power", "category": "item" },
 	{ "id": "onion", "i18nKey": "rewards.onion", "category": "item" },
 	{ "id": "heart", "i18nKey": "rewards.heart", "category": "item" },
 	{ "id": "nectar", "i18nKey": "rewards.nectar", "category": "item" },

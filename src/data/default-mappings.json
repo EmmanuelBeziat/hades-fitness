@@ -21,7 +21,7 @@
 	{ "rewardId": "coins", "exerciseId": "bicep_curl", "quantity": 8 },
 	{ "rewardId": "stones", "exerciseId": "bicep_curl", "quantity": 8 },
 	{ "rewardId": "souls", "exerciseId": "bicep_curl", "quantity": 8 },
-	{ "rewardId": "fruit", "exerciseId": "shoulder_shrug", "quantity": 16 },
+	{ "rewardId": "pom_of_power", "exerciseId": "shoulder_shrug", "quantity": 16 },
 	{ "rewardId": "onion", "exerciseId": "shoulder_shrug", "quantity": 16 },
 	{ "rewardId": "heart", "exerciseId": "triceps_extension", "quantity": 16 },
 	{ "rewardId": "nectar", "exerciseId": "triceps_extension", "quantity": 16 },
