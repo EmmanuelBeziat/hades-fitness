@@ -22,16 +22,16 @@
 	{ "id": "icarus", "i18nKey": "rewards.icarus", "category": "entity" },
 	{ "id": "selene", "i18nKey": "rewards.selene", "category": "entity" },
 	{ "id": "nemesis", "i18nKey": "rewards.nemesis", "category": "entity" },
-	{ "id": "mini_boss", "i18nKey": "rewards.mini_boss", "category": "encounter" },
+	{ "id": "miniBoss", "i18nKey": "rewards.miniBoss", "category": "encounter" },
 	{ "id": "boss", "i18nKey": "rewards.boss", "category": "encounter" },
 	{ "id": "nectar", "i18nKey": "rewards.nectar", "category": "item" },
 	{ "id": "ashes", "i18nKey": "rewards.ashes", "category": "item" },
-	{ "id": "mana_potion", "i18nKey": "rewards.mana_potion", "category": "item" },
+	{ "id": "manaPotion", "i18nKey": "rewards.manaPotion", "category": "item" },
 	{ "id": "bones", "i18nKey": "rewards.bones", "category": "item" },
 	{ "id": "heart", "i18nKey": "rewards.heart", "category": "item" },
 	{ "id": "hammer", "i18nKey": "rewards.hammer", "category": "item" },
 	{ "id": "boons", "i18nKey": "rewards.boons", "category": "item" },
-	{ "id": "pom_of_power", "i18nKey": "rewards.pom_of_power", "category": "item" },
+	{ "id": "pomOfPower", "i18nKey": "rewards.pomOfPower", "category": "item" },
 	{ "id": "armor", "i18nKey": "rewards.armor", "category": "item" },
-	{ "id": "golden_crowns", "i18nKey": "rewards.golden_crowns", "category": "item" }
+	{ "id": "goldenCrowns", "i18nKey": "rewards.goldenCrowns", "category": "item" }
 ]

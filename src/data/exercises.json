@@ -1,19 +1,19 @@
 [
 	{
-		"id": "pushup_military",
-		"i18nKey": "exercises.pushup_military",
+		"id": "pushupMilitary",
+		"i18nKey": "exercises.pushupMilitary",
 		"targetMuscle": "chest",
 		"unit": "reps"
 	},
 	{
-		"id": "pushup_diamond",
-		"i18nKey": "exercises.pushup_diamond",
+		"id": "pushupDiamond",
+		"i18nKey": "exercises.pushupDiamond",
 		"targetMuscle": "chest",
 		"unit": "reps"
 	},
 	{
-		"id": "pushup_wide",
-		"i18nKey": "exercises.pushup_wide",
+		"id": "pushupWide",
+		"i18nKey": "exercises.pushupWide",
 		"targetMuscle": "chest",
 		"unit": "reps"
 	},
@@ -24,8 +24,8 @@
 		"unit": "reps"
 	},
 	{
-		"id": "pushup_archer",
-		"i18nKey": "exercises.pushup_archer",
+		"id": "pushupArcher",
+		"i18nKey": "exercises.pushupArcher",
 		"targetMuscle": "chest",
 		"unit": "reps"
 	},
@@ -54,20 +54,20 @@
 		"unit": "seconds"
 	},
 	{
-		"id": "pushup_pike",
-		"i18nKey": "exercises.pushup_pike",
+		"id": "pushupPike",
+		"i18nKey": "exercises.pushupPike",
 		"targetMuscle": "shoulders",
 		"unit": "reps"
 	},
 	{
-		"id": "pushup_balance",
-		"i18nKey": "exercises.pushup_balance",
+		"id": "pushupBalance",
+		"i18nKey": "exercises.pushupBalance",
 		"targetMuscle": "chest",
 		"unit": "reps"
 	},
 	{
-		"id": "shoulder_fly",
-		"i18nKey": "exercises.shoulder_fly",
+		"id": "shoulderFly",
+		"i18nKey": "exercises.shoulderFly",
 		"targetMuscle": "shoulders",
 		"unit": "reps"
 	},
@@ -78,32 +78,32 @@
 		"unit": "seconds"
 	},
 	{
-		"id": "y_press",
-		"i18nKey": "exercises.y_press",
+		"id": "yPress",
+		"i18nKey": "exercises.yPress",
 		"targetMuscle": "shoulders",
 		"unit": "reps"
 	},
 	{
-		"id": "bicep_curl",
-		"i18nKey": "exercises.bicep_curl",
+		"id": "bicepCurl",
+		"i18nKey": "exercises.bicepCurl",
 		"targetMuscle": "arms",
 		"unit": "reps"
 	},
 	{
-		"id": "shoulder_shrug",
-		"i18nKey": "exercises.shoulder_shrug",
+		"id": "shoulderShrug",
+		"i18nKey": "exercises.shoulderShrug",
 		"targetMuscle": "shoulders",
 		"unit": "reps"
 	},
 	{
-		"id": "triceps_extension",
-		"i18nKey": "exercises.triceps_extension",
+		"id": "tricepsExtension",
+		"i18nKey": "exercises.tricepsExtension",
 		"targetMuscle": "arms",
 		"unit": "reps"
 	},
 	{
-		"id": "rotator_cuff",
-		"i18nKey": "exercises.rotator_cuff",
+		"id": "rotatorCuff",
+		"i18nKey": "exercises.rotatorCuff",
 		"targetMuscle": "shoulders",
 		"unit": "reps"
 	}

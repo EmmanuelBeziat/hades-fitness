@@ -1,23 +1,23 @@
 {
 	"exercises": {
-		"pushup_military": "Military push-ups",
-		"pushup_diamond": "Diamond push-ups",
-		"pushup_wide": "Wide push-ups",
+		"pushupMilitary": "Military push-ups",
+		"pushupDiamond": "Diamond push-ups",
+		"pushupWide": "Wide push-ups",
 		"squat": "Squats",
-		"pushup_archer": "Archer push-ups",
+		"pushupArcher": "Archer push-ups",
 		"crunch": "Crunches",
 		"plank": "Plank",
 		"lunge": "Lunges",
 		"balance": "Balance",
-		"pushup_pike": "Pike press push-ups",
-		"pushup_balance": "Balance push-ups",
-		"shoulder_fly": "Shoulder fly",
+		"pushupPike": "Pike press push-ups",
+		"pushupBalance": "Balance push-ups",
+		"shoulderFly": "Shoulder fly",
 		"splits": "Max splits",
-		"y_press": "Y press",
-		"bicep_curl": "Biceps curl",
-		"shoulder_shrug": "Shoulder shrugs",
-		"triceps_extension": "Triceps back extensions",
-		"rotator_cuff": "Rotator cuff exercises"
+		"yPress": "Y press",
+		"bicepCurl": "Biceps curl",
+		"shoulderShrug": "Shoulder shrugs",
+		"tricepsExtension": "Triceps back extensions",
+		"rotatorCuff": "Rotator cuff exercises"
 	},
 	"targetMuscles": {
 		"chest": "Chest",
@@ -45,7 +45,7 @@
 		"chaos": "Chaos",
 		"thanatos": "Thanatos",
 		"charon": "Charon",
-		"charon_fight": "Charon fight",
+		"charonFight": "Charon fight",
 		"sisyphe": "Sisyphus",
 		"eurydice": "Eurydice",
 		"patrocle": "Patroclus",
@@ -58,7 +58,7 @@
 		"icarus": "Icarus",
 		"selene": "Selene",
 		"nemesis": "Nemesis",
-		"mini_boss": "Mini-Boss",
+		"miniBoss": "Mini-Boss",
 		"boss": "Boss",
 		"key": "Key",
 		"coins": "Golden coins",
@@ -70,11 +70,11 @@
 		"hammer": "Daedalus Hammer",
 		"fish": "Fish",
 		"ashes": "Ashes",
-		"mana_potion": "Mana Potion",
+		"manaPotion": "Mana Potion",
 		"bones": "Bones",
 		"boons": "Boons",
-		"pom_of_power": "Pom of Power",
+		"pomOfPower": "Pom of Power",
 		"armor": "Armor",
-		"golden_crowns": "Golden Crowns"
+		"goldenCrowns": "Golden Crowns"
 	}
 }

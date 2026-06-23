@@ -1,23 +1,23 @@
 {
 	"exercises": {
-		"pushup_military": "Pompes militaires",
-		"pushup_diamond": "Pompes diamant",
-		"pushup_wide": "Pompes écartées",
+		"pushupMilitary": "Pompes militaires",
+		"pushupDiamond": "Pompes diamant",
+		"pushupWide": "Pompes écartées",
 		"squat": "Squats",
-		"pushup_archer": "Pompes archer",
+		"pushupArcher": "Pompes archer",
 		"crunch": "Crunchs",
 		"plank": "Gainage planche",
 		"lunge": "Fentes",
 		"balance": "Équilibre",
-		"pushup_pike": "Pompes pike press",
-		"pushup_balance": "Pompes équilibre",
-		"shoulder_fly": "Shoulder fly",
+		"pushupPike": "Pompes pike press",
+		"pushupBalance": "Pompes équilibre",
+		"shoulderFly": "Shoulder fly",
 		"splits": "Grand écart max",
-		"y_press": "Y press",
-		"bicep_curl": "Biceps curl",
-		"shoulder_shrug": "Shoulder shrugs",
-		"triceps_extension": "Triceps back extensions",
-		"rotator_cuff": "Exercices coiffe des rotateurs"
+		"yPress": "Y press",
+		"bicepCurl": "Biceps curl",
+		"shoulderShrug": "Shoulder shrugs",
+		"tricepsExtension": "Triceps back extensions",
+		"rotatorCuff": "Exercices coiffe des rotateurs"
 	},
 	"targetMuscles": {
 		"chest": "Torse",
@@ -45,7 +45,7 @@
 		"chaos": "Chaos",
 		"thanatos": "Thanatos",
 		"charon": "Charon",
-		"charon_fight": "Combat contre Charon",
+		"charonFight": "Combat contre Charon",
 		"sisyphe": "Sisyphe",
 		"eurydice": "Eurydice",
 		"patrocle": "Patrocle",
@@ -58,7 +58,7 @@
 		"icarus": "Icare",
 		"selene": "Séléné",
 		"nemesis": "Némésis",
-		"mini_boss": "Mini-boss",
+		"miniBoss": "Mini-boss",
 		"boss": "Boss",
 		"key": "Clé",
 		"coins": "Pièces",
@@ -70,11 +70,11 @@
 		"hammer": "Marteau de Dédale",
 		"fish": "Poisson",
 		"ashes": "Cendres",
-		"mana_potion": "Potion de mana",
+		"manaPotion": "Potion de mana",
 		"bones": "Ossements",
 		"boons": "Boons",
-		"pom_of_power": "Pom of Power",
+		"pomOfPower": "Pom of Power",
 		"armor": "Armure",
-		"golden_crowns": "Couronnes dorées"
+		"goldenCrowns": "Couronnes dorées"
 	}
 }
