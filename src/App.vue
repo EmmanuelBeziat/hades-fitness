@@ -1,20 +1,25 @@
 <template>
 	<div class="app">
-		<h1>You did it!</h1>
-		<p>
-			Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-			documentation
-		</p>
+		<Header />
+
+		<main id="content" class="main" tabindex="-1">
+			<RouterView />
+		</main>
+
+		<Footer />
 	</div>
 </template>
 
 <script setup lang="ts">
 import { watch } from 'vue'
 import { useI18n } from 'vue-i18n'
+import { RouterView } from 'vue-router'
 import { useSettingsStore } from './stores/settings'
 import { useExercisesStore } from './stores/exercises'
 import { useRewardsStore } from './stores/rewards'
 import { useSessionStore } from './stores/session'
+import Header from './components/global/Header.vue'
+import Footer from './components/global/Footer.vue'
 
 // Initialize stores on app mount
 const settingsStore = useSettingsStore()
@@ -35,9 +40,10 @@ watch(
 </script>
 
 <style scoped>
-.site {
+.app {
 	min-block-size: 100svh;
 	overflow-x: clip;
 	display: grid;
+	grid-template-rows: auto 1fr auto;
 }
 </style>

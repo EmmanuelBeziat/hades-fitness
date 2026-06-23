@@ -15,6 +15,7 @@
     "lint:eslint": "eslint . --fix --cache"
   },
   "dependencies": {
+    "modern-normalize": "^3.0.1",
     "pinia": "^3.0.4",
     "vue": "^3.5.32",
     "vue-i18n": "^11.4.5",

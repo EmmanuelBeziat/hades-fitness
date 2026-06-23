@@ -1,5 +1,5 @@
 ::selection {
-	background: var(--color-grey);
+	background: var(--color-red);
 	color: var(--color-front);
 	text-shadow: 0 1px 0 rgb(0 0 0 / .5);
 }
@@ -72,4 +72,22 @@ img {
 
 :where(button, [type="button"], [type="reset"], [type="submit"]):not(:disabled) {
 	cursor: pointer;
+}
+
+:where(h1, h2, h3, h4, h5, h6) {
+	font: 700 var(--title-size)/1.25 var(--font-stack-heading);
+	color: var(--title-color);
+	margin: 1.5em 0 .75em;
+}
+
+h1 {
+	--title-size: 3rem;
+}
+
+h2 {
+	--title-size: 2.5rem;
+}
+
+h3 {
+	--title-size: 2rem;
 }

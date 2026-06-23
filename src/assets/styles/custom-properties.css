@@ -3,13 +3,16 @@
 	--color-black: #0b191f;
 	--color-white: #f5f5f5;
 	--color-gray: #8ca7cc;
+	--color-green: #63cd6b;
+	--color-blue: #55a4c5;
+	--color-red: #840403;
 	--color-back: var(--color-black);
 	--color-front: var(--color-white);
-	--color-accent: var(--color-gray);
+	--color-accent: var(--color-green);
 
 	/* fonts stacks */
-	--font-stack-common: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-	--font-stack-heading: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	--font-stack-common: "Alegreya Sans", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+	--font-stack-heading: "Spectral SC", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 
 	/* font sizes */
 	--font-size-base: 16px;

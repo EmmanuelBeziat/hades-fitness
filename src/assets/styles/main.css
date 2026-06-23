@@ -1,6 +1,9 @@
 /* Dependencies */
+@import 'modern-normalize/modern-normalize.css';
 
 /* fonts */
+@import '../fonts/alegreya-sans/alegreya-sans.css';
+@import '../fonts/spectral-sc/spectral-sc.css';
 
 /* vendors */
 
