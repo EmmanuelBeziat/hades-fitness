@@ -5,10 +5,7 @@ import fr from './i18n/fr.json'
 const i18n = createI18n({
 	locale: 'en',
 	fallbackLocale: 'fr',
-	messages: {
-		en,
-		fr,
-	},
+	messages: { en, fr, },
 })
 
 export default i18n

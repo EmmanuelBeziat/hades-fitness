@@ -2,91 +2,109 @@
 	{
 		"id": "pushup_military",
 		"i18nKey": "exercises.pushup_military",
+		"targetMuscle": "chest",
 		"unit": "reps"
 	},
 	{
 		"id": "pushup_diamond",
 		"i18nKey": "exercises.pushup_diamond",
+		"targetMuscle": "chest",
 		"unit": "reps"
 	},
 	{
 		"id": "pushup_wide",
 		"i18nKey": "exercises.pushup_wide",
+		"targetMuscle": "chest",
 		"unit": "reps"
 	},
 	{
 		"id": "squat",
 		"i18nKey": "exercises.squat",
+		"targetMuscle": "legs",
 		"unit": "reps"
 	},
 	{
 		"id": "pushup_archer",
 		"i18nKey": "exercises.pushup_archer",
+		"targetMuscle": "chest",
 		"unit": "reps"
 	},
 	{
 		"id": "crunch",
 		"i18nKey": "exercises.crunch",
+		"targetMuscle": "abs",
 		"unit": "reps"
 	},
 	{
 		"id": "plank",
 		"i18nKey": "exercises.plank",
+		"targetMuscle": "abs",
 		"unit": "seconds"
 	},
 	{
 		"id": "lunge",
 		"i18nKey": "exercises.lunge",
+		"targetMuscle": "legs",
 		"unit": "reps"
 	},
 	{
 		"id": "balance",
 		"i18nKey": "exercises.balance",
+		"targetMuscle": "legs",
 		"unit": "seconds"
 	},
 	{
 		"id": "pushup_pike",
 		"i18nKey": "exercises.pushup_pike",
+		"targetMuscle": "shoulders",
 		"unit": "reps"
 	},
 	{
 		"id": "pushup_balance",
 		"i18nKey": "exercises.pushup_balance",
+		"targetMuscle": "chest",
 		"unit": "reps"
 	},
 	{
 		"id": "shoulder_fly",
 		"i18nKey": "exercises.shoulder_fly",
+		"targetMuscle": "shoulders",
 		"unit": "reps"
 	},
 	{
 		"id": "splits",
 		"i18nKey": "exercises.splits",
+		"targetMuscle": "legs",
 		"unit": "seconds"
 	},
 	{
 		"id": "y_press",
 		"i18nKey": "exercises.y_press",
+		"targetMuscle": "shoulders",
 		"unit": "reps"
 	},
 	{
 		"id": "bicep_curl",
 		"i18nKey": "exercises.bicep_curl",
+		"targetMuscle": "arms",
 		"unit": "reps"
 	},
 	{
 		"id": "shoulder_shrug",
 		"i18nKey": "exercises.shoulder_shrug",
+		"targetMuscle": "shoulders",
 		"unit": "reps"
 	},
 	{
 		"id": "triceps_extension",
 		"i18nKey": "exercises.triceps_extension",
+		"targetMuscle": "arms",
 		"unit": "reps"
 	},
 	{
 		"id": "rotator_cuff",
 		"i18nKey": "exercises.rotator_cuff",
+		"targetMuscle": "shoulders",
 		"unit": "reps"
 	}
 ]

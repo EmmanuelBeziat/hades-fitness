@@ -1,137 +1,29 @@
 [
-	{
-		"rewardId": "zeus",
-		"exerciseId": "pushup_military",
-		"quantity": 15
-	},
-	{
-		"rewardId": "poseidon",
-		"exerciseId": "pushup_diamond",
-		"quantity": 15
-	},
-	{
-		"rewardId": "athena",
-		"exerciseId": "pushup_wide",
-		"quantity": 15
-	},
-	{
-		"rewardId": "aphrodite",
-		"exerciseId": "squat",
-		"quantity": 20
-	},
-	{
-		"rewardId": "artemis",
-		"exerciseId": "pushup_archer",
-		"quantity": 12
-	},
-	{
-		"rewardId": "ares",
-		"exerciseId": "crunch",
-		"quantity": 40
-	},
-	{
-		"rewardId": "dionysus",
-		"exerciseId": "plank",
-		"quantity": 45
-	},
-	{
-		"rewardId": "hermes",
-		"exerciseId": "lunge",
-		"quantity": 20
-	},
-	{
-		"rewardId": "demeter",
-		"exerciseId": "balance",
-		"quantity": 30
-	},
-	{
-		"rewardId": "chaos",
-		"exerciseId": "pushup_pike",
-		"quantity": 15
-	},
-	{
-		"rewardId": "thanatos",
-		"exerciseId": "pushup_balance",
-		"quantity": 5
-	},
-	{
-		"rewardId": "charon",
-		"exerciseId": "shoulder_fly",
-		"quantity": 8
-	},
-	{
-		"rewardId": "charon_fight",
-		"exerciseId": "shoulder_fly",
-		"quantity": 16
-	},
-	{
-		"rewardId": "sisyphe",
-		"exerciseId": "splits",
-		"quantity": 30
-	},
-	{
-		"rewardId": "eurydice",
-		"exerciseId": "splits",
-		"quantity": 30
-	},
-	{
-		"rewardId": "patrocle",
-		"exerciseId": "splits",
-		"quantity": 30
-	},
-	{
-		"rewardId": "mini_boss",
-		"exerciseId": "y_press",
-		"quantity": 10
-	},
-	{
-		"rewardId": "boss",
-		"exerciseId": "y_press",
-		"quantity": 15
-	},
-	{
-		"rewardId": "key",
-		"exerciseId": "bicep_curl",
-		"quantity": 8
-	},
-	{
-		"rewardId": "coins",
-		"exerciseId": "bicep_curl",
-		"quantity": 8
-	},
-	{
-		"rewardId": "stones",
-		"exerciseId": "bicep_curl",
-		"quantity": 8
-	},
-	{
-		"rewardId": "souls",
-		"exerciseId": "bicep_curl",
-		"quantity": 8
-	},
-	{
-		"rewardId": "fruit",
-		"exerciseId": "shoulder_shrug",
-		"quantity": 15
-	},
-	{
-		"rewardId": "onion",
-		"exerciseId": "shoulder_shrug",
-		"quantity": 15
-	},
-	{
-		"rewardId": "heart",
-		"exerciseId": "triceps_extension",
-		"quantity": 15
-	},
-	{
-		"rewardId": "nectar",
-		"exerciseId": "triceps_extension",
-		"quantity": 15
-	},
-	{
-		"rewardId": "hammer",
-		"exerciseId": "rotator_cuff",
-		"quantity": 15
-	}
+	{ "rewardId": "zeus", "exerciseId": "pushup_military", "quantity": 16 },
+	{ "rewardId": "poseidon", "exerciseId": "pushup_diamond", "quantity": 16 },
+	{ "rewardId": "athena", "exerciseId": "pushup_wide", "quantity": 16 },
+	{ "rewardId": "aphrodite", "exerciseId": "squat", "quantity": 20 },
+	{ "rewardId": "artemis", "exerciseId": "pushup_archer", "quantity": 12 },
+	{ "rewardId": "ares", "exerciseId": "crunch", "quantity": 40 },
+	{ "rewardId": "dionysus", "exerciseId": "plank", "quantity": 46 },
+	{ "rewardId": "hermes", "exerciseId": "lunge", "quantity": 20 },
+	{ "rewardId": "demeter", "exerciseId": "balance", "quantity": 30 },
+	{ "rewardId": "chaos", "exerciseId": "pushup_pike", "quantity": 16 },
+	{ "rewardId": "thanatos", "exerciseId": "pushup_balance", "quantity": 6 },
+	{ "rewardId": "charon", "exerciseId": "shoulder_fly", "quantity": 8 },
+	{ "rewardId": "charon_combat", "exerciseId": "shoulder_fly", "quantity": 16 },
+	{ "rewardId": "sisyphe", "exerciseId": "splits", "quantity": 30 },
+	{ "rewardId": "eurydice", "exerciseId": "splits", "quantity": 30 },
+	{ "rewardId": "patrocle", "exerciseId": "splits", "quantity": 30 },
+	{ "rewardId": "mini_boss", "exerciseId": "y_press", "quantity": 10 },
+	{ "rewardId": "boss", "exerciseId": "y_press", "quantity": 16 },
+	{ "rewardId": "key", "exerciseId": "bicep_curl", "quantity": 8 },
+	{ "rewardId": "coins", "exerciseId": "bicep_curl", "quantity": 8 },
+	{ "rewardId": "stones", "exerciseId": "bicep_curl", "quantity": 8 },
+	{ "rewardId": "souls", "exerciseId": "bicep_curl", "quantity": 8 },
+	{ "rewardId": "fruit", "exerciseId": "shoulder_shrug", "quantity": 16 },
+	{ "rewardId": "onion", "exerciseId": "shoulder_shrug", "quantity": 16 },
+	{ "rewardId": "heart", "exerciseId": "triceps_extension", "quantity": 16 },
+	{ "rewardId": "nectar", "exerciseId": "triceps_extension", "quantity": 16 },
+	{ "rewardId": "hammer", "exerciseId": "rotator_cuff", "quantity": 16 }
 ]

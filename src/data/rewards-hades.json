@@ -1,143 +1,30 @@
 [
-	{
-		"id": "zeus",
-		"i18nKey": "rewards.zeus",
-		"category": "god"
-	},
-	{
-		"id": "poseidon",
-		"i18nKey": "rewards.poseidon",
-		"category": "god"
-	},
-	{
-		"id": "athena",
-		"i18nKey": "rewards.athena",
-		"category": "god"
-	},
-	{
-		"id": "aphrodite",
-		"i18nKey": "rewards.aphrodite",
-		"category": "god"
-	},
-	{
-		"id": "artemis",
-		"i18nKey": "rewards.artemis",
-		"category": "god"
-	},
-	{
-		"id": "ares",
-		"i18nKey": "rewards.ares",
-		"category": "god"
-	},
-	{
-		"id": "dionysus",
-		"i18nKey": "rewards.dionysus",
-		"category": "god"
-	},
-	{
-		"id": "hermes",
-		"i18nKey": "rewards.hermes",
-		"category": "god"
-	},
-	{
-		"id": "demeter",
-		"i18nKey": "rewards.demeter",
-		"category": "god"
-	},
-	{
-		"id": "chaos",
-		"i18nKey": "rewards.chaos",
-		"category": "entity"
-	},
-	{
-		"id": "thanatos",
-		"i18nKey": "rewards.thanatos",
-		"category": "entity"
-	},
-	{
-		"id": "charon",
-		"i18nKey": "rewards.charon",
-		"category": "entity"
-	},
-	{
-		"id": "charon_fight",
-		"i18nKey": "rewards.charon_fight",
-		"category": "entity"
-	},
-	{
-		"id": "sisyphe",
-		"i18nKey": "rewards.sisyphe",
-		"category": "entity"
-	},
-	{
-		"id": "eurydice",
-		"i18nKey": "rewards.eurydice",
-		"category": "entity"
-	},
-	{
-		"id": "patrocle",
-		"i18nKey": "rewards.patrocle",
-		"category": "entity"
-	},
-	{
-		"id": "mini_boss",
-		"i18nKey": "rewards.mini_boss",
-		"category": "encounter"
-	},
-	{
-		"id": "boss",
-		"i18nKey": "rewards.boss",
-		"category": "encounter"
-	},
-	{
-		"id": "key",
-		"i18nKey": "rewards.key",
-		"category": "currency"
-	},
-	{
-		"id": "coins",
-		"i18nKey": "rewards.coins",
-		"category": "currency"
-	},
-	{
-		"id": "stones",
-		"i18nKey": "rewards.stones",
-		"category": "currency"
-	},
-	{
-		"id": "souls",
-		"i18nKey": "rewards.souls",
-		"category": "currency"
-	},
-	{
-		"id": "fruit",
-		"i18nKey": "rewards.fruit",
-		"category": "item"
-	},
-	{
-		"id": "onion",
-		"i18nKey": "rewards.onion",
-		"category": "item"
-	},
-	{
-		"id": "heart",
-		"i18nKey": "rewards.heart",
-		"category": "item"
-	},
-	{
-		"id": "nectar",
-		"i18nKey": "rewards.nectar",
-		"category": "item"
-	},
-	{
-		"id": "hammer",
-		"i18nKey": "rewards.hammer",
-		"category": "item"
-	},
-	{
-		"id": "fish",
-		"i18nKey": "rewards.fish",
-		"category": "special",
-		"note": "Multiplicateur x2 si présent dans la salle"
-	}
+	{ "id": "zeus", "i18nKey": "rewards.zeus", "category": "god" },
+	{ "id": "poseidon", "i18nKey": "rewards.poseidon", "category": "god" },
+	{ "id": "athena", "i18nKey": "rewards.athena", "category": "god" },
+	{ "id": "aphrodite", "i18nKey": "rewards.aphrodite", "category": "god" },
+	{ "id": "artemis", "i18nKey": "rewards.artemis", "category": "god" },
+	{ "id": "ares", "i18nKey": "rewards.ares", "category": "god" },
+	{ "id": "dionysus", "i18nKey": "rewards.dionysus", "category": "god" },
+	{ "id": "hermes", "i18nKey": "rewards.hermes", "category": "god" },
+	{ "id": "demeter", "i18nKey": "rewards.demeter", "category": "god" },
+	{ "id": "chaos", "i18nKey": "rewards.chaos", "category": "entity" },
+	{ "id": "thanatos", "i18nKey": "rewards.thanatos", "category": "entity" },
+	{ "id": "charon", "i18nKey": "rewards.charon", "category": "entity" },
+	{ "id": "charon_fight", "i18nKey": "rewards.charon_fight", "category": "entity" },
+	{ "id": "sisyphe", "i18nKey": "rewards.sisyphe", "category": "entity" },
+	{ "id": "eurydice", "i18nKey": "rewards.eurydice", "category": "entity" },
+	{ "id": "patrocle", "i18nKey": "rewards.patrocle", "category": "entity" },
+	{ "id": "mini_boss", "i18nKey": "rewards.mini_boss", "category": "encounter" },
+	{ "id": "boss", "i18nKey": "rewards.boss", "category": "encounter" },
+	{ "id": "key", "i18nKey": "rewards.key", "category": "currency" },
+	{ "id": "coins", "i18nKey": "rewards.coins", "category": "currency" },
+	{ "id": "stones", "i18nKey": "rewards.stones", "category": "currency" },
+	{ "id": "souls", "i18nKey": "rewards.souls", "category": "currency" },
+	{ "id": "fruit", "i18nKey": "rewards.fruit", "category": "item" },
+	{ "id": "onion", "i18nKey": "rewards.onion", "category": "item" },
+	{ "id": "heart", "i18nKey": "rewards.heart", "category": "item" },
+	{ "id": "nectar", "i18nKey": "rewards.nectar", "category": "item" },
+	{ "id": "hammer", "i18nKey": "rewards.hammer", "category": "item" },
+	{ "id": "fish", "i18nKey": "rewards.fish", "category": "special" }
 ]
